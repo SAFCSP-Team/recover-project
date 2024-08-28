@@ -3,11 +3,11 @@
 
 ## Objective 
 
-Read files in bytes using the **recover** concept in Java, to read the contents of a file as an array of bytes.
+Read the files as an array of bytes, then use the `XOR` operation to recover a file. 
 
 ## Problem
 
-Implement the concept of recovering files using the `XOR` operation.
+Implement the `XOR` operation to recover files.
 
 
 ## Implementation
