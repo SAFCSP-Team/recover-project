@@ -25,4 +25,4 @@ Implement the concept of recovering files using the `XOR` operation.
 
 * Delete one of the original files, for example, file2.txt.
 
-* Recover the deleted file, read the remaining file (file1.txt) and the XOR result file (xor_result.txt), and Perform an XOR operation on the bytes of these two files, which will give you the original contents of the deleted file (file2.txt).
+* Recover the deleted file, read the remaining file (file1.txt) and the XOR result file (xor_result.txt), and perform an XOR operation on the bytes of these two files, which will give you the original contents of the deleted file (file2.txt).
