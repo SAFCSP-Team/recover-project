@@ -3,26 +3,25 @@
 
 ## Objective 
 
-Read the files as an array of bytes, then use the `XOR` operation to recover a file. 
+Understand how to read files as an array of bytes and use the **XOR** operation to recover one file if missing. 
 
 ## Problem
 
-Implement the `XOR` operation to recover files.
+Implement the **XOR** operation to recover a file.
 
 
 ## Implementation
 
-* Create two text files, `file1.txt` and `file2.txt`, with data.
+* Create two text files, `first.txt` and `second.txt`, with data.
 
-* Read the contents of both files.
+* Read the contents of both files as bytes.
 
+* Convert the contents of both files to **bytes**. And store them in byte arrays.
 
-* Convert the contents of both files to **bytes**. to read the contents into a byte array.
+* Perform an **XOR** operation on the bytes of both files. This will create a new byte array that represents the XOR of the two files.
 
-* Perform an `XOR` operation on the bytes of both files. This will create a new byte array that represents the XOR of the two files.
+* Store the resulting byte array in a new file, for example, **result.txt**.
 
-* Store the resulting byte array in a new file, for example, xor_result.txt.
+* Delete one of the original files, for example, second.txt.
 
-* Delete one of the original files, for example, file2.txt.
-
-* Recover the deleted file, read the remaining file (file1.txt) and the XOR result file (xor_result.txt), and perform an XOR operation on the bytes of these two files, which will give you the original contents of the deleted file (file2.txt).
+* Recover the deleted file by reading the remaining file (first.txt) and the XOR result file (result.txt), and perform an XOR operation on the byte arrays of these two files, which will give you the original contents of the deleted file (second.txt).
