@@ -21,6 +21,6 @@ Implement the **XOR** operation to recover a file.
 
 * Delete one of the original files, for example, `second.txt`.
 
-* Recover the deleted file by reading the remaining file `first.txt` and the XOR result file `result.out`, and perform an XOR operation on the byte arrays of these two files, which will give you the original contents of the deleted file `second.txt`.
+* Recover the deleted file by reading the remaining files, `first.txt` and `result.out`, and perform an XOR operation on them, which will give you the original contents of the deleted file `second.txt`.
 
-* Write the result to a new file `second.txt` and check its content.
+* Write the result to a new file, `second.txt`, and verify its content.
