@@ -1,10 +1,7 @@
 # File Recovery Project
 
-
 ## Objective 
-
-Understand how to read files as an array of bytes and use the **XOR** operation to recover one file if missing. 
-
+Understand how file recovery systems work.
 ## Problem
 
 Implement the **XOR** operation to recover a file.
@@ -20,7 +17,7 @@ Implement the **XOR** operation to recover a file.
 
 * Perform an **XOR** operation between the byte arrays of both files. This will create a new byte array that represents the XOR of the two files.
 
-* Store the resulting byte array in a new file, for example, `result.txt`.
+* Store the resulting byte array in a new file, for example, `result.out` (Note: The output will be binary not text).
 
 * Delete one of the original files, for example, `second.txt`.
 
